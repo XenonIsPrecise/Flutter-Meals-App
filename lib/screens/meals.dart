@@ -5,6 +5,6 @@ class MealsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(child: Text('Sujal'));
+    return Container(child: Text('Sujal'), Row(child: Text('Acharya')));
   }
 }
